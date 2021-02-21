@@ -47,10 +47,3 @@ export function setData(payload){
         payload: payload
     }
 }
-
-export function showModal(payload){
-    return{
-        type: SHOW_MODAL,
-        payload: payload
-    }
-}
